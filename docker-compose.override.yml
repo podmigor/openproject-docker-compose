@@ -4,19 +4,15 @@ services:
   web:
     environment:
       OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
-      OPENPROJECT_OMNIAUTH__DIRECT__LOGIN__PROVIDER: ""
 
   worker:
     environment:
       OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
-      OPENPROJECT_OMNIAUTH__DIRECT__LOGIN__PROVIDER: ""
 
   cron:
     environment:
       OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
-      OPENPROJECT_OMNIAUTH__DIRECT__LOGIN__PROVIDER: ""
 
   seeder:
     environment:
       OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
-      OPENPROJECT_OMNIAUTH__DIRECT__LOGIN__PROVIDER: ""
