@@ -3,16 +3,16 @@ services:
     image: postgres:17
   web:
     environment:
-      OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
+ #     OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
 
   worker:
     environment:
-      OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
+  #    OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
 
   cron:
     environment:
-      OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
+   #   OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
 
   seeder:
     environment:
-      OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
+    #  OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
