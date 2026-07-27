@@ -1,3 +1,7 @@
 services:
   db:
     image: postgres:17
+
+#  web:
+#    environment:
+#      OPENPROJECT_DISABLE__PASSWORD__LOGIN: "false"
